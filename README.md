@@ -71,9 +71,10 @@
 Doctor App is used for to create APi's and SignUp , SignIn and SignOut Patient and schedule  appointments .
 
 # Features for Employee
-Create /SignUp patient
-Create /SignUp Doctor
-SignIn patient (Send token on mail for verification)
-SignOut patient (Delete token)
-Create Appointment (Create the Appointment using email and token)
-Get Appontment by id(get the specific AppontmentS by providin email, token and Appontment id)
+* Create /SignUp patient
+* Create /SignUp Doctor
+* SignIn patient (Send token on mail for verification)
+* SignOut patient (Delete token)
+* Create Appointment (Create the Appointment using email and token)
+* Get Appontment by id(get the specific AppontmentS by providin email, token and Appontment id).
+
