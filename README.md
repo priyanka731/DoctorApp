@@ -11,7 +11,6 @@
 * @GetMapping("patients")
 * @PostMapping("doctor")
 * @GetMapping("patients/bloodGroup/{bloodGroup}")
-
 ## DoctorController
 * @GetMapping("doctors")
 * @GetMapping("doctor/{id}")
@@ -69,7 +68,7 @@
 # Data Structure Used
  MYSQL as database
 # Project Summary
-Doctor App is a Assignment to practice mapping , APis and SignIn and SignUP Patient and and schedult appointments springboot.
+Doctor App is used for to create APi's and SignUp , SignIn and SignOut Patient and schedule  appointments .
 
 # Features for Employee
 Create /SignUp patient
