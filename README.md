@@ -6,16 +6,16 @@
  *  MYSQL database
  *  Swagger UI
 ## Data Flow
-### Controller
-#### AdminController
+# Controller
+## AdminController
 * @GetMapping("patients")
 * @PostMapping("doctor")
 * @GetMapping("patients/bloodGroup/{bloodGroup}")
 
-#### DoctorController
+## DoctorController
 * @GetMapping("doctors")
 * @GetMapping("doctor/{id}")
-#### PatientController
+## PatientController
 *  @PostMapping("patient/signup")
 * @PostMapping("patient/signIn")
 * @DeleteMapping("patient/signOut")
@@ -23,34 +23,34 @@
   cancel")
 *@GetMapping("doctors/qualification/{qual}/or/specialization/{spec}")
 # Service
- ### AppointementService
+ ## AppointementService
  * scheduleAppointment()
  * cancelAppointment()
- ### DoctorService
+ ## DoctorService
  * getAllDoctors()
  * addDoctor()
  * getDoctorById()
  * getDoctorsByQualificationOrSpec()
- ### EmailService
+ ## EmailService
  * sendEmail()
- ### PasswordEncryptor
+ ## PasswordEncryptor
  * encrypt()
- ### PatientService
+ ## PatientService
  * patientSignUp()
  * patientSignIn()
  * patientSignOut()
  * getAllPatients()
  * getAllPatientsByBloodGroup()
- ### PTokenService
+ ## PTokenService
  * createToken()
  * deletetoken()
  * authenticate()
-### Model
-##### dto
+# Model
+## dto
 * AuthenticationInputDto
 * ScheduleAppointmentDto
 * SignInInputDto
-#### enums
+## enums
 * BloodGroup
 * Gender
 * Qualification
@@ -60,18 +60,18 @@
 * Doctor
 * Patient
 * PatientAuthenticationToken
-### Repository
+# Repository
  * IAppointmentRepo()
  * IDoctorRepo()
  * IPTokenRepo()
  * IPatientRepo()
  
-### Data Structure Used
+# Data Structure Used
  MYSQL as database
-### Project Summary
+# Project Summary
 Doctor App is a Assignment to practice mapping , APis and SignIn and SignUP Patient and and schedult appointments springboot.
 
-### Features for Employee
+# Features for Employee
 Create /SignUp patient
 Create /SignUp Doctor
 SignIn patient (Send token on mail for verification)
